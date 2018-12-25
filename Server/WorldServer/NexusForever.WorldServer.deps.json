@@ -1,0 +1,217 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "b312eae31a5437f0a26fff62a9b5b8ab8f9d0aee"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "NexusForever.WorldServer/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0",
+          "NLog.Web.AspNetCore": "4.7.0",
+          "NexusForever.Shared": "1.0.0"
+        },
+        "runtime": {
+          "NexusForever.WorldServer.dll": {}
+        }
+      },
+      "Microsoft.NETCore.App/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0",
+          "Microsoft.NETCore.Platforms": "2.1.0",
+          "Microsoft.NETCore.Targets": "2.1.0",
+          "NETStandard.Library": "2.0.3"
+        }
+      },
+      "Microsoft.NETCore.DotNetAppHost/2.1.0": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+        "dependencies": {
+          "Microsoft.NETCore.DotNetAppHost": "2.1.0"
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.1.0": {},
+      "Microsoft.NETCore.Targets/2.1.0": {},
+      "MySqlConnector/0.47.1": {
+        "runtime": {
+          "lib/netcoreapp2.1/MySqlConnector.dll": {
+            "assemblyVersion": "0.47.1.0",
+            "fileVersion": "0.47.1.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "NLog/4.5.10": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.10.8381"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/1.3.0": {
+        "dependencies": {
+          "NLog": "4.5.10"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.0.804"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/4.7.0": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "1.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.930.0"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
+        "dependencies": {
+          "MySqlConnector": "0.47.1",
+          "Pomelo.JsonObject": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "2.1.4.0",
+            "fileVersion": "2.1.4.0"
+          }
+        }
+      },
+      "Pomelo.JsonObject/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Pomelo.JsonObject.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "NexusForever.Shared/1.0.0": {
+        "dependencies": {
+          "NLog": "4.5.10",
+          "Pomelo.EntityFrameworkCore.MySql": "2.1.4"
+        },
+        "runtime": {
+          "NexusForever.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NexusForever.WorldServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.App/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
+      "path": "microsoft.netcore.app/2.1.0",
+      "hashPath": "microsoft.netcore.app.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetAppHost/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "path": "microsoft.netcore.dotnetapphost/2.1.0",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p50yZYKzhH64lmArJgoKjtvsNehECa+/sAuOQzZh5uDNBTbRKxjN8IXP1e517xdVsgrFcSNxSEVDKZIOWVjGcQ==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.DotNetHostResolver/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fS9D8a+y55n6mHMbNqgHXaPGkjmpVH9h97OyrBxsCuo3Z8aQaFMJ5xIfmzji2ntUd/3truhMbSgSfIelHOkQpg==",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.0",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSTPL94NloSiQVL5Len8wbjFKOnoAX/vOh3s3DF6g3c7GUUMLCDvnBhmA72M2iN2AedyA8hpr7m89kzSAKUnJQ==",
+      "path": "microsoft.netcore.platforms/2.1.0",
+      "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
+      "path": "microsoft.netcore.targets/2.1.0",
+      "hashPath": "microsoft.netcore.targets.2.1.0.nupkg.sha512"
+    },
+    "MySqlConnector/0.47.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bwEjq0yLcf6SKCS64/kjql8RC/mFP9n7tGVqqShMW2QgoBJr9tflEWy8S0jupMk4oMPqjqjooMQqqwzZROwPug==",
+      "path": "mysqlconnector/0.47.1",
+      "hashPath": "mysqlconnector.0.47.1.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "NLog/4.5.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXZEFeDj/R3OL6bCcLNVFVFlBxp4zey9X2RdmISG+P9hp0uivIgkN6nBqCIE6yF0dRrUBye84uaD7emNVmqAnQ==",
+      "path": "nlog/4.5.10",
+      "hashPath": "nlog.4.5.10.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0LkprrGi/rKoIax6VpHbNCfpnf89PH8C6uOGJDIqAMt/LPdzcFpam1BRVPimJC0gEULLd2tlkovvQXcom+2TtQ==",
+      "path": "nlog.extensions.logging/1.3.0",
+      "hashPath": "nlog.extensions.logging.1.3.0.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QHT1QfyGYselgNVY23KI8tL3rwgWH8Xkb37x0DsDB3sW0fYVHyvxoWZIp8AkYH75zNFZnMTROAChDRuNTwUG3Q==",
+      "path": "nlog.web.aspnetcore/4.7.0",
+      "hashPath": "nlog.web.aspnetcore.4.7.0.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/2.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/GngSqZ0GgRh6NOpnQvQQunYbu4drSE9O3omshM4aVj4/CSRrSdkGobqaSs+0erMVK6DpfLXINIWBMZqIz1xUQ==",
+      "path": "pomelo.entityframeworkcore.mysql/2.1.4",
+      "hashPath": "pomelo.entityframeworkcore.mysql.2.1.4.nupkg.sha512"
+    },
+    "Pomelo.JsonObject/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sMN9ETMoYfqCegOCVkOkOkfXK3ceH8nWkSeZPgLwfnx6UnqVXTl/ScIZs+x5Q8qgiPmYYCPmtolxNQ0QrcU97g==",
+      "path": "pomelo.jsonobject/2.0.0",
+      "hashPath": "pomelo.jsonobject.2.0.0.nupkg.sha512"
+    },
+    "NexusForever.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
