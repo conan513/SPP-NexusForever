@@ -1,9 +1,9 @@
 @echo off
 set mainfolder=%CD%
 set serverfolder=WorldServer
-set server_binary=NexusForever.WorldServer.dll
+set server_binary=NexusForever.WorldServer.exe
 
 cd %mainfolder%\Server\%serverfolder%
-dotnet %server_binary%
+%server_binary%
 pause
 exit

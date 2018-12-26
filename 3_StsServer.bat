@@ -1,9 +1,9 @@
 @echo off
 set mainfolder=%CD%
 set serverfolder=StsServer
-set server_binary=NexusForever.StsServer.dll
+set server_binary=NexusForever.StsServer.exe
 
 cd %mainfolder%\Server\%serverfolder%
-dotnet %server_binary%
+%server_binary%
 pause
 exit

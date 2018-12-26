@@ -1,9 +1,9 @@
 @echo off
 set mainfolder=%CD%
 set serverfolder=AuthServer
-set server_binary=NexusForever.AuthServer.dll
+set server_binary=NexusForever.AuthServer.exe
 
 cd %mainfolder%\Server\%serverfolder%
-dotnet %server_binary%
+%server_binary%
 pause
 exit
