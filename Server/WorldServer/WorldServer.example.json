@@ -1,0 +1,20 @@
+{
+    "Network": {
+        "Host": "0.0.0.0",
+        "Port": 24000
+    },
+    "Database": {
+        "Auth": {
+            "ConnectionString": "server=127.0.0.1;port=3306;user=nexusforever;password=nexusforever;database=nexus_forever_auth",
+            "Provider": "MySql"
+        },
+        "Character": {
+            "ConnectionString": "server=127.0.0.1;port=3306;user=nexusforever;password=nexusforever;database=nexus_forever_character",
+            "Provider": "MySql"
+        },
+        "World": {
+            "ConnectionString": "server=127.0.0.1;port=3306;user=nexusforever;password=nexusforever;database=nexus_forever_world",
+            "Provider": "MySql"
+        }
+    }
+}
