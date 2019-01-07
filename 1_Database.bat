@@ -6,6 +6,8 @@ set mainfolder=%CD%
 :start_database
 cls
 if not exist "%mainfolder%\Server\Database\bin\mysqld.exe" goto install_database
+copy "%mainfolder%\tools\connection.cnf" "%mainfolder%\Server\Database"
+start import_updates.bat
 cd %mainfolder%\Server\Database
 bin\mysqld --defaults-file=my-large.ini --console --standalone
 exit
